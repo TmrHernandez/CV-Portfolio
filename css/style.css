@@ -1,5 +1,5 @@
 .gradient-background {
-  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background: linear-gradient(300deg, #FFF, #35155D, #512B81 );
   background-size: 180% 180%;
   animation: gradient-animation 18s ease infinite;
 }
@@ -15,6 +15,9 @@
     background-position: 0% 50%;
   }
 }
+h1 {
+  color: white;
+}
 
 .icon-square {
   width: 3rem;
@@ -23,6 +26,13 @@
 }
 
 .profile-img {
-  height: 100px;
+  height: 200px;
   border-radius: 50%;
+}
+.kitten {
+  height: 350px;
+}
+
+footer {
+  color: white;
 }
